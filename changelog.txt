@@ -1,0 +1,6 @@
++ Customize item names/lore
+
+
++ Given survival mode, 64 GD and 32 block, and the Create GUI is already open,
+  When I go to create new ghostblocks,
+  Then the GUI acts as if it was closed, and the GD/Block items are duplicated

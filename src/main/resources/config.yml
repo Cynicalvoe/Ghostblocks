@@ -1,0 +1,85 @@
+#   ____ _               _   _     _            _         #
+#  / ___| |__   ___  ___| |_| |__ | | ___   ___| | _____  #
+# | |  _| '_ \ / _ \/ __| __| '_ \| |/ _ \ / __| |/ / __| #
+# | |_| | | | | (_) \__ \ |_| |_) | | (_) | (__|   <\__ \ #
+#  \____|_| |_|\___/|___/\__|_.__/|_|\___/ \___|_|\_\___/ #
+#                                                         #
+###########################################################
+# Developed by FireBreath15
+# 
+# This is the GhostBlocks configuration file. When making changes,
+# please remember to save your work and reload the plugin. For
+# help and troubleshooting, be sure to post your question in the
+# Discussion tab on SpigotMC.org.
+# 
+
+##################
+# Allow Crafting #
+##################
+# This setting enables Ghostdrop crafting. Set to FALSE to disable 
+# Ghostdrop crafting recipes.
+allowCrafting: true
+
+#################
+# Block Refresh #
+#################
+# The amount of time (in seconds) that each Ghostblock is refreshed
+# by the system.
+blockRefresh: 20
+
+#######################
+# Disappearing Blocks #
+#######################
+# This modifies whether or not Ghostblocks disappear when players get
+# too close. If set to FALSE, Ghostblocks must be clicked to be broken.
+doDisappear: true
+
+######################
+# Disappear Distance #
+######################
+# The distance (in blocks) at which Ghostblocks are removed from a
+# player's view. This has no effect if "doDisappear" is FALSE.
+disappearDistance: 5
+
+######################
+# Combustible Blocks #
+######################
+# Whether or not Ghostblocks can be destroyed with TNT. Set to FALSE
+# to create invincible Ghostblocks.
+doExplode: true
+
+####################
+# Explosion Radius #
+####################
+# The distance (in blocks) at which Ghostblocks can be destroyed by an
+# explosion. This has no effect if "doExplode" is FALSE.
+explosionRadius: 5
+
+######################
+# Item Configuration #
+######################
+# Customize the GhostDrop and GhostBlock in-game items.
+ghostDrop:
+  name: "&f&ki&6&lGhostdrop&f&ki"
+  lore:
+  - "&aDrag onto any block"
+
+ghostBlock:
+  name: "&f&ki&e&lGhostblock&f&ki"
+  lore:
+  - "&dType: &7%TYPE%:%DATA%"
+
+###################
+# Secret Settings #
+###################
+# Behold: the secret setting! Nobody really knows what it does, but some say it
+# has magical powers to disguise real blocks. Keep it on to discover its true
+# power, or turn it off to give your players a fairer game. It's up to you!
+theSecretSetting: true
+
+##################
+# Update Checker #
+##################
+# Automatically check for updates when the server starts. This is recommended,
+# so you can always have the latest features and bug fixes.
+checkForUpdates: true

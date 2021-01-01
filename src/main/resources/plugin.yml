@@ -1,0 +1,27 @@
+name: GhostBlocks
+version: 1.1.15
+main: com.hadenwatne.ghostblocks.GhostBlocks
+author: Cynicalvoe
+softdepend: [Multiverse-Core, MultiWorld, ProtocolLib]
+api-version: 1.13
+commands:
+  gb:
+permissions:
+  ghostblocks.get:
+    default: op
+  ghostblocks.reset:
+    default: op
+  ghostblocks.reload:
+    default: op
+  ghostblocks.truesight:
+    default: op
+  ghostblocks.place:
+    default: true
+  ghostblocks.admin:
+    default: op
+    children:
+      ghostblocks.get: true
+      ghostblocks.reset: true
+      ghostblocks.reload: true
+      ghostblocks.truesight: true
+      ghostblocks.place: true

@@ -7,17 +7,17 @@ This plugin was originally a Premium resource of mine on Spigot, and having move
 To make a Ghostblock, you need to drag a Ghostdrop onto your block of choice within your inventory. Ghostdrops can be crafted by surrounding a Ghast Tear with either Iron Ingots or Gold Ingots. Once crafted, a single Ghostdrop can create a single Ghostblock.
 
 ### Commands
-/gb get
-/gb reset [radius]
-/gb reload
+/gb get  
+/gb reset [radius]  
+/gb reload  
 /gb truesight
 
 ### Permissions
-ghostblocks.get - Spawn a Ghostdrop in your inventory!
-ghostblocks.reset - Remove all Ghostblocks from the system.
-ghostblocks.reload - Reloads the plugin configuration.
-ghostblocks.truesight - Enable this option to see through Ghostblocks. Useful for admin, VIPs, and more!
-ghostblocks.place - Allows players to place GhostBlocks (given by default)
+ghostblocks.get - Spawn a Ghostdrop in your inventory!  
+ghostblocks.reset - Remove all Ghostblocks from the system.  
+ghostblocks.reload - Reloads the plugin configuration.  
+ghostblocks.truesight - Enable this option to see through Ghostblocks. Useful for admin, VIPs, and more!  
+ghostblocks.place - Allows players to place GhostBlocks (given by default)  
 ghostblocks.admin - Includes all permissions
 
 ## Installation (Server)
